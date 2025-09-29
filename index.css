@@ -90,6 +90,17 @@ body h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: black;
+    text-align: left;
+    /* ecarter un peu du texte */
+    margin-left: 50px;
+    /* souligner */
+    text-decoration: underline;
+}
+
 body p {
     font-size: 1.2rem;
     color: #555;
@@ -125,6 +136,9 @@ footer {
     margin-top: 20px;
     /* 4 boutons par ligne sur grand écran, 2 sur petit */
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
